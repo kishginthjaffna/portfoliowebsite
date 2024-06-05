@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link 
+            rel="stylesheet" 
+            href="styles.css"
+        />
+        
+        <link 
+            href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+            rel='stylesheet'
+        />
+        
+        <Title>
+            My Portfolio
+        </Title>
+        
+    </head>
+    <body>
+        
+        <header>
+            <a href="#" class="logo">KI<span>SHGI</span></a>
+            <nav class="navbar">
+                <a href="index.html" >Portfolio</a>
+                <a href="Education.html" >Education</a>
+                <a href="Projects.html" >Projects</a>
+                <a href="Experiences.html">Experiences</a>
+                
+            </nav>
+        </header>
+        
+        <div class="container2">
+        <div class="card2">
+            <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Hire me!</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="8282851f-b1b7-4bd9-ae83-6df69abe55aa">
+                <input type="text" class="contact-inputs" name="name" placeholder="Your Name" required/>
+                <input type="email" class="contact-inputs" name="email" placeholder="Your E-mail" required/>
+                <section class="radio">
+                    <input type="radio" name="type" id="website" value="website"> Website
+                    <input type="radio" name="type" id="application" value="application"> Application
+                    <input type="radio" name="type" id="System" value="system"> System
+                </section>
+                <textarea id="req" name="req" placeholder="Provide your requirements and any other things I should consider....." rows="10" cols="60" class="contact-inputs" required></textarea>
+                <button type="submit">Submit<i class='bx bx-chevrons-right' ></i></button>
+            </form>
+            <script src="https://web3forms.com/client/script.js" async defer></script>
+            </div>
+        </div>
+    </div>
+
+        <footer>
+            <div class="contact-me">
+                <div class="social">
+                    <a href=""><i class='bx bxl-facebook bx-spin' ></i></a>
+                    <a href=""><i class='bx bxl-linkedin bx-spin' ></i></a>
+                    <a href=""><i class='bx bxl-instagram-alt bx-spin' ></i></a>
+                    <a href=""><i class='bx bxl-github bx-spin' ></i></a>
+                </div>
+                <p class="end">CopyRight by Kishgi</p>
+            </div>
+
+        </footer>
+    </body>
+</html>
